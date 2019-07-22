@@ -1,12 +1,11 @@
-package com.finalproject.automated.refactoring.tool.longg.parameter.refactoring.service.implementation;
+package com.finalproject.automated.refactoring.tool.longg.parameter.methods.refactoring.service.implementation;
 
-import com.finalproject.automated.refactoring.tool.longg.parameter.refactoring.service.ParameterVariable;
+import com.finalproject.automated.refactoring.tool.longg.parameter.methods.refactoring.service.ParameterVariable;
 import com.finalproject.automated.refactoring.tool.model.MethodModel;
 import com.finalproject.automated.refactoring.tool.model.PropertyModel;
+import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Map;
-
+@Service
 public class ParameterVariableImpl implements ParameterVariable {
     private static final String KEYWORD = "private";
     private static final String SPACE = " ";

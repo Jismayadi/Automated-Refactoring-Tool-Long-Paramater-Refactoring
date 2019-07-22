@@ -1,10 +1,11 @@
-package com.finalproject.automated.refactoring.tool.longg.parameter.refactoring.service.implementation;
+package com.finalproject.automated.refactoring.tool.longg.parameter.methods.refactoring.service.implementation;
 
-import com.finalproject.automated.refactoring.tool.longg.parameter.refactoring.service.BuildConstructorMethod;
+import com.finalproject.automated.refactoring.tool.longg.parameter.methods.refactoring.service.BuildConstructorMethod;
 import com.finalproject.automated.refactoring.tool.model.MethodModel;
 import com.finalproject.automated.refactoring.tool.model.PropertyModel;
-import lombok.NonNull;
+import org.springframework.stereotype.Service;
 
+@Service
 public class BuildConstructorMethodImpl implements BuildConstructorMethod {
 
     private static final String KEYWORD = "public";

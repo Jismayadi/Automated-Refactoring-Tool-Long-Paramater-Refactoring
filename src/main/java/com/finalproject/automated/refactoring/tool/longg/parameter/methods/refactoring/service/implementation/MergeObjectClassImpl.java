@@ -1,15 +1,18 @@
-package com.finalproject.automated.refactoring.tool.longg.parameter.refactoring.service.implementation;
+package com.finalproject.automated.refactoring.tool.longg.parameter.methods.refactoring.service.implementation;
 
-import com.finalproject.automated.refactoring.tool.longg.parameter.refactoring.service.BuildConstructorMethod;
-import com.finalproject.automated.refactoring.tool.longg.parameter.refactoring.service.ClassBuilding;
-import com.finalproject.automated.refactoring.tool.longg.parameter.refactoring.service.MergeObjectClass;
-import com.finalproject.automated.refactoring.tool.longg.parameter.refactoring.service.ParameterVariable;
+import com.finalproject.automated.refactoring.tool.longg.parameter.methods.refactoring.service.BuildConstructorMethod;
+import com.finalproject.automated.refactoring.tool.longg.parameter.methods.refactoring.service.ClassBuilding;
+import com.finalproject.automated.refactoring.tool.longg.parameter.methods.refactoring.service.MergeObjectClass;
+import com.finalproject.automated.refactoring.tool.longg.parameter.methods.refactoring.service.ParameterVariable;
 import com.finalproject.automated.refactoring.tool.model.MethodModel;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
+@Service
 public class MergeObjectClassImpl implements MergeObjectClass {
 
     @Autowired
